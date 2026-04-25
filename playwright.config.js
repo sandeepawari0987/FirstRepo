@@ -14,7 +14,7 @@ const config = {
       name: 'chromium',
       use: {
     browserName: 'chromium',
-    headless: false,
+    headless: true,
     screenshot: 'on',
     //only-on-failure, off, on
     //video: 'retain-on-failure',
